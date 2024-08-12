@@ -1,0 +1,1 @@
+export { ViewTouristAttractions } from './ViewTouristAttractions'

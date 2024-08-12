@@ -1,0 +1,1 @@
+export { PresidentsCard } from './PresidentsCard'

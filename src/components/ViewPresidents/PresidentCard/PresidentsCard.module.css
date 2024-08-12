@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  justify-content: start;
+}
+
+.presidentCard {
+  padding: 0 1rem;
+  width: 85%;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.presidentCard.collapsed {
+  display: none;
+  overflow: hidden;
+}
+
+.presidentCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.presidentCard h2 {
+  margin-top: 10px;
+}
+
+.presidentCard p {
+  margin: 5px 0;
+}
+
+.expandButton {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.content .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.expandButton {
+  /* Your button styles */
+  position: relative;
+}
